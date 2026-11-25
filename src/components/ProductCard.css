@@ -1,9 +1,9 @@
 .product-card{
     display: inline-block;
-    border: 2px solid greenyellow;
+    border: 1px solid #22300c;
     margin-left: 16px;
     margin-top: 26px;
-    background-color: beige;
+    background-color: #1c3d3d17;
 }
 
 .logo{
@@ -11,13 +11,14 @@
 }
 
 .navbar{
-    background-color: greenyellow;
+    background-color: hsl(181.68deg 59.27% 12.53% / 96%);
+    color: white;
 }
 
 .heading{
     font-size: 54px;
     font-weight: bolder;
-    color: darkred;
+    color: white;
 }
 
 .cartlogo{
@@ -55,4 +56,12 @@
 
 .img-cart{
     height: 37px;
+}
+
+.cart-container{
+    color: white;
+    padding: 36px;
+    margin-left: 53%;
+    background-color: hsl(181.68deg 59.27% 12.53% / 96%);
+    position: absolute;
 }
